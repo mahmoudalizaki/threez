@@ -1,0 +1,23 @@
+h1,
+h2,
+p,
+span,
+li {
+    font-family: 'Cairo';
+    font-weight: lighter;
+}
+
+/* Initially hide the sections */
+section {
+    opacity: 0;
+    transform: translateY(50px);
+    /* Start below */
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+/* Add this class when the section is visible */
+section.visible {
+    opacity: 1;
+    transform: translateY(0);
+    /* Move to normal position */
+}
