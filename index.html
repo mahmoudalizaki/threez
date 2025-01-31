@@ -27,6 +27,7 @@
   <link rel="stylesheet" href="/media/styles/assests.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Cairo' rel='stylesheet'>
+  <link rel="stylesheet" href="/media/styles/custom_st.css">
 
 </head>
 
@@ -85,14 +86,15 @@
   <header class="max-container flexBetween padding-container relative z-30 py-5">
     <ul class="flex items-center gap-10 max-sm:gap-2">
       <li>
-        <a class="btn-ghost max-sm:text-[14px] text-center" href="/ar.html">عربي</a>
+        <a class="li-a btn-ghost max-sm:text-[14px] text-center" href="/ar.html">عربي</a>
       </li>
       <li>
-        <a href="whatsapp://send?phone=+966551784814"><button type="button" class="btn-ghost max-sm:text-[14px]">Contact
+        <a href="whatsapp://send?phone=+966551784814"><button type="button"
+            class="li-a btn-ghost max-sm:text-[14px]">Contact
             Us!</button></a>
       </li>
       <li>
-        <a href="#plist"><button type="button" class="btn-ghost max-sm:text-[14px]">Our Products</button></a>
+        <a href="#plist"><button type="button" class="li-a btn-ghost max-sm:text-[14px]">Our Products</button></a>
       </li>
     </ul>
     <a href="#">
@@ -155,7 +157,7 @@
       </div>
     </section>
     <section
-      class="flex flex-wrap w-screen my-16 bg-black justify-around items-center lg:px-[200px] xl:px-[300px] dark:border-y-2 dark:border-[#F5F5F5]">
+      class="overview-bar flex flex-wrap w-screen my-16 justify-around items-center lg:px-[200px] xl:px-[300px] dark:border-y-2 dark:border-[#F5F5F5]">
       <div class="flex flex-col items-center px-3 py-3">
         <p class="text-2xl text-white font-extrabold" dir="ltr">+500</p>
         <p class="text-lg text-white">Orders</p>
@@ -183,7 +185,7 @@
         </div>
         <!-- Text on the left -->
         <div class="lg:col-span-7 text-left">
-          <h1 class="title mb-5">Who Are We?</h1>
+          <h1 class="HeadTitle title mb-5">Who Are We?</h1>
           <div class="text-justify text-color text-[18px]">
             <p>We specialize in providing the finest products and services for cafés and tea shops in the Kingdom of
               Saudi Arabia. Our mission is to empower our clients to achieve excellence by offering high-quality
@@ -209,7 +211,7 @@
         </div>
         <!-- Text on the left -->
         <div class="lg:col-span-7 text-left">
-          <h1 class="title mb-5">Why Us?</h1>
+          <h1 class="HeadTitle title mb-5">Why Us?</h1>
           <div class="text-justify text-color text-[18px]">
             <p>We are not just a passing option, but true partners in your success! We understand that quality and
               excellence are not just luxuries, but the foundation of your clients' satisfaction and the continuity of
@@ -227,7 +229,8 @@
     </section>
     <section class="container mx-auto px-6 py-8" id="plist">
       <div class="relative">
-        <h1 class="max-container padding-container title text-center" style="margin-bottom: 50px;">Our Products!</h1>
+        <h1 class="HeadTitle max-container padding-container title text-center" style="margin-bottom: 50px;">Our
+          Products!</h1>
 
         <!-- Slider Container -->
         <div id="productSliderContainer" class="relative">
@@ -239,150 +242,150 @@
           <div id="productSlider"
             class="flex gap-6 overflow-x-auto snap-x snap-mandatory scrollbar-hide scroll-smooth py-6">
             <!-- Product 1 - Cup Covers (Best Seller) -->
-            <div class="relative min-w-[220px] max-w-[220px] bg-white shadow-md rounded-lg p-4 text-center snap-start">
+            <div
+              class="product-item relative min-w-[220px] max-w-[220px] shadow-md rounded-lg p-4 text-center snap-start">
               <span class="absolute top-2 left-2 bg-red-500 text-white text-xs px-2 py-1 rounded">Best Seller</span>
               <img src="/media/images/variety.png" alt="Cup Covers" loading="lazy"
                 class="w-full h-36 object-cover rounded-md product-image cursor-pointer"
                 data-full-image="/media/images/variety.png">
               <p class="mt-3 text-base font-semibold text-gray-700">Cup Covers</p>
-              <span class="text-sm text-green-600 font-bold">SAR 20.58</span>
+
             </div>
 
             <!-- Product 2 - Chocolate Bars (New) -->
-            <div class="relative min-w-[220px] max-w-[220px] bg-white shadow-md rounded-lg p-4 text-center snap-start">
+            <div
+              class="product-item relative min-w-[220px] max-w-[220px] shadow-md rounded-lg p-4 text-center snap-start">
               <span class="absolute top-2 right-2 bg-blue-500 text-white text-xs px-2 py-1 rounded">New</span>
               <img src="/media/images/fastDelivery.png" alt="Chocolate Bars" loading="lazy"
                 class="w-full h-36 object-cover rounded-md product-image cursor-pointer"
                 data-full-image="/media/images/fastDelivery.png">
               <p class="mt-3 text-base font-semibold text-gray-700">Chocolate Bars</p>
-              <span class="text-sm text-green-600 font-bold">SAR 48.74</span>
+
             </div>
 
             <!-- Product 3 - Seasonal Drinks (Limited Edition) -->
-            <div class="relative min-w-[220px] max-w-[220px] bg-white shadow-md rounded-lg p-4 text-center snap-start">
+            <div
+              class="product-item relative min-w-[220px] max-w-[220px] shadow-md rounded-lg p-4 text-center snap-start">
               <span class="absolute top-2 left-2 bg-yellow-500 text-white text-xs px-2 py-1 rounded">Limited
                 Edition</span>
               <img src="/media/images/customerSupport.png" alt="Seasonal Drinks" loading="lazy"
                 class="w-full h-36 object-cover rounded-md product-image cursor-pointer"
                 data-full-image="/media/images/customerSupport.png">
               <p class="mt-3 text-base font-semibold text-gray-700">Seasonal Drinks</p>
-              <span class="text-sm text-green-600 font-bold">SAR 30.00</span>
             </div>
 
             <!-- Product 4 - Designed Cups (Discounted) -->
-            <div class="relative min-w-[220px] max-w-[220px] bg-white shadow-md rounded-lg p-4 text-center snap-start">
+            <div
+              class="product-item relative min-w-[220px] max-w-[220px] shadow-md rounded-lg p-4 text-center snap-start">
               <span class="absolute top-2 left-2 bg-green-500 text-white text-xs px-2 py-1 rounded">20% Off</span>
               <img src="/media/images/highQuality.png" alt="Designed Cups" loading="lazy"
                 class="w-full h-36 object-cover rounded-md product-image cursor-pointer"
                 data-full-image="/media/images/highQuality.png">
               <p class="mt-3 text-base font-semibold text-gray-700">Designed Cups</p>
-              <div class="flex justify-center items-center">
-                <span class="text-sm line-through text-gray-500 mr-2">SAR 46.86</span> <!-- Original price -->
-                <span class="text-sm text-green-600 font-bold">SAR 37.49</span> <!-- Discounted price -->
-              </div>
-            </div>
-          </div>
 
-          <button id="nextBtn"
-            class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full shadow-lg hover:bg-gray-700">
-            &#10095; <!-- Right Arrow -->
-          </button>
-        </div>
-
-        <!-- Modal for Larger Image -->
-        <div id="imageModal"
-          class="fixed inset-0 bg-black bg-opacity-50 hidden flex items-center justify-center opacity-0 transition-opacity duration-300 ease-in-out z-50">
-          <div class="relative bg-white p-4 rounded-lg shadow-lg max-w-4xl mx-auto">
-            <span id="closeModal"
-              class="absolute top-2 right-2 text-black font-bold text-xl cursor-pointer">&times;</span>
-            <div class="flex justify-center items-center relative">
-              <img id="modalImage" src="" alt="Product"
-                class="max-w-full max-h-[80vh] object-contain rounded-md transition-transform duration-300"
-                style="transform: scale(1);">
-            </div>
-            <button id="hideModalBtn"
-              class="absolute top-2 left-2 text-white bg-red-600 p-2 rounded-full">إخفاء</button>
-
-            <!-- Zoom Controls -->
-            <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
-              <button id="zoomInBtn" class="bg-blue-500 text-white p-2 rounded-full">+</button>
-              <button id="zoomOutBtn" class="bg-blue-500 text-white p-2 rounded-full">-</button>
             </div>
           </div>
         </div>
 
-        <script>
-          document.addEventListener("DOMContentLoaded", function () {
-            const modal = document.getElementById("imageModal");
-            const modalImage = document.getElementById("modalImage");
-            const closeModal = document.getElementById("closeModal");
-            const hideModalBtn = document.getElementById("hideModalBtn");
+        <button id="nextBtn"
+          class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full shadow-lg hover:bg-gray-700">
+          &#10095; <!-- Right Arrow -->
+        </button>
+      </div>
 
-            // Initial zoom scale
-            let zoomLevel = 1;
+      <!-- Modal for Larger Image -->
+      <div id="imageModal"
+        class="fixed inset-0 bg-black bg-opacity-50 hidden flex items-center justify-center opacity-0 transition-opacity duration-300 ease-in-out z-50">
+        <div class="relative bg-white p-4 rounded-lg shadow-lg max-w-4xl mx-auto">
+          <span id="closeModal"
+            class="absolute top-2 right-2 text-black font-bold text-xl cursor-pointer">&times;</span>
+          <div class="flex justify-center items-center relative">
+            <img id="modalImage" src="" alt="Product"
+              class="max-w-full max-h-[80vh] object-contain rounded-md transition-transform duration-300"
+              style="transform: scale(1);">
+          </div>
+          <button id="hideModalBtn" class="absolute top-2 left-2 text-white bg-red-600 p-2 rounded-full">إخفاء</button>
 
-            // Open modal when product image is clicked
-            document.querySelectorAll('.product-image').forEach(img => {
-              img.addEventListener('click', function () {
-                modalImage.src = this.getAttribute('data-full-image');
-                modal.classList.remove('hidden');
-                setTimeout(() => modal.classList.add('opacity-100'), 10); // Smooth fade-in
-              });
-            });
+          <!-- Zoom Controls -->
+          <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+            <button id="zoomInBtn" class="bg-blue-500 text-white p-2 rounded-full">+</button>
+            <button id="zoomOutBtn" class="bg-blue-500 text-white p-2 rounded-full">-</button>
+          </div>
+        </div>
+      </div>
 
-            // Close modal
-            function closeImageModal() {
-              modal.classList.remove('opacity-100');
-              setTimeout(() => modal.classList.add('hidden'), 300); // Wait for fade-out
-            }
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          const modal = document.getElementById("imageModal");
+          const modalImage = document.getElementById("modalImage");
+          const closeModal = document.getElementById("closeModal");
+          const hideModalBtn = document.getElementById("hideModalBtn");
 
-            closeModal.addEventListener('click', closeImageModal);
+          // Initial zoom scale
+          let zoomLevel = 1;
 
-            // Close when clicking outside the image
-            modal.addEventListener('click', function (e) {
-              if (e.target === modal) closeImageModal();
-            });
-
-            // Hide modal when the Hide button is clicked
-            hideModalBtn.addEventListener('click', closeImageModal);
-
-            // Zoom In button
-            document.getElementById('zoomInBtn').addEventListener('click', function () {
-              zoomLevel += 0.1; // Increase zoom level by 10%
-              modalImage.style.transform = `scale(${zoomLevel})`; // Apply scaling
-            });
-
-            // Zoom Out button
-            document.getElementById('zoomOutBtn').addEventListener('click', function () {
-              zoomLevel = Math.max(1, zoomLevel - 0.1); // Decrease zoom level but prevent it from going below 1
-              modalImage.style.transform = `scale(${zoomLevel})`; // Apply scaling
-            });
-
-            // Scroll functionality for prev/next buttons
-            const slider = document.getElementById("productSlider");
-            const prevBtn = document.getElementById("prevBtn");
-            const nextBtn = document.getElementById("nextBtn");
-
-            prevBtn.addEventListener("click", function () {
-              slider.scrollBy({
-                left: -220, // Adjust this value based on product width
-                behavior: "smooth"
-              });
-            });
-
-            nextBtn.addEventListener("click", function () {
-              slider.scrollBy({
-                left: 220, // Adjust this value based on product width
-                behavior: "smooth"
-              });
+          // Open modal when product image is clicked
+          document.querySelectorAll('.product-image').forEach(img => {
+            img.addEventListener('click', function () {
+              modalImage.src = this.getAttribute('data-full-image');
+              modal.classList.remove('hidden');
+              setTimeout(() => modal.classList.add('opacity-100'), 10); // Smooth fade-in
             });
           });
-        </script>
+
+          // Close modal
+          function closeImageModal() {
+            modal.classList.remove('opacity-100');
+            setTimeout(() => modal.classList.add('hidden'), 300); // Wait for fade-out
+          }
+
+          closeModal.addEventListener('click', closeImageModal);
+
+          // Close when clicking outside the image
+          modal.addEventListener('click', function (e) {
+            if (e.target === modal) closeImageModal();
+          });
+
+          // Hide modal when the Hide button is clicked
+          hideModalBtn.addEventListener('click', closeImageModal);
+
+          // Zoom In button
+          document.getElementById('zoomInBtn').addEventListener('click', function () {
+            zoomLevel += 0.1; // Increase zoom level by 10%
+            modalImage.style.transform = `scale(${zoomLevel})`; // Apply scaling
+          });
+
+          // Zoom Out button
+          document.getElementById('zoomOutBtn').addEventListener('click', function () {
+            zoomLevel = Math.max(1, zoomLevel - 0.1); // Decrease zoom level but prevent it from going below 1
+            modalImage.style.transform = `scale(${zoomLevel})`; // Apply scaling
+          });
+
+          // Scroll functionality for prev/next buttons
+          const slider = document.getElementById("productSlider");
+          const prevBtn = document.getElementById("prevBtn");
+          const nextBtn = document.getElementById("nextBtn");
+
+          prevBtn.addEventListener("click", function () {
+            slider.scrollBy({
+              left: -220, // Adjust this value based on product width
+              behavior: "smooth"
+            });
+          });
+
+          nextBtn.addEventListener("click", function () {
+            slider.scrollBy({
+              left: 220, // Adjust this value based on product width
+              behavior: "smooth"
+            });
+          });
+        });
+      </script>
       </div>
     </section>
     </section>
     <section class="pt-28">
-      <h1 class="max-container padding-container title text-center">Our Brands!</h1>
+      <h1 class="HeadTitle max-container padding-container title text-center">Our Brands!</h1>
       <div
         class="max-container padding-container pb-10 pt-7 mt-5 flex flex-wrap gap-x-10 lg:gap-x-20 gap-y-10 dark:bg-[#55555555] rounded-lg">
         <img alt="Logo" loading="lazy" width="340" height="200" decoding="async" data-nimg="1"
@@ -420,53 +423,32 @@
     </section>
     <section>
       <div class="max-container padding-container pt-32">
-        <h1 class="title text-center">We are honored by your trust</h1>
+        <h1 class="HeadTitle title text-center">We are honored by your trust</h1>
       </div>
-      <div class="w-screen mt-10 mb-16 py-5 bg-black dark:border-y-2 dark:border-[#F5F5F5]">
-        <div class="flex flex-wrap gap-10 max-container padding-container">
-          <!--                                    
-                        <img alt="red-mug" loading="lazy" width="62" height="130" decoding="async" data-nimg="1" class="object-scale-down mx-auto" style="color:transparent" srcSet="/media/images/redMug.png" src="/media/images/redMug.png"/>
-                        <img alt="basic" loading="lazy" width="173" height="130" decoding="async" data-nimg="1" class="object-scale-down mx-auto" style="color:transparent" srcSet="/media/images/basic.png" src="/media/images/basic.png"/>
-                        <img alt="one-fifteenth" loading="lazy" width="123" height="130" decoding="async" data-nimg="1" class="object-scale-down mx-auto" style="color:transparent" srcSet="/media/images/oneFifteenth.png" src="/media/images/oneFifteenth.png"/>
-                        <img alt="cuppio" loading="lazy" width="128" height="130" decoding="async" data-nimg="1" class="object-scale-down mx-auto" style="color:transparent" srcSet="/media/images/cuppio.png" src="/media/images/cuppio.png"/>
-                        <img alt="le-creperie" loading="lazy" width="112" height="130" decoding="async" data-nimg="1" class="object-scale-down mx-auto" style="color:transparent" srcSet="/media/images/leCreperie.png" src="/media/images/leCreperie.png"/>
-                        <img alt="onza" loading="lazy" width="97" height="130" decoding="async" data-nimg="1" class="object-scale-down mx-auto" style="color:transparent" srcSet="/media/images/onza.png" src="/media/images/onza.png"/>
-                        <img alt="princess-coffee" loading="lazy" width="128" height="130" decoding="async" data-nimg="1" class="object-scale-down mx-auto" style="color:transparent" srcSet="/media/images/princessCoffee.png" src="/media/images/princessCoffee.png"/>                    </div>
-                         -->
-        </div>
+
     </section>
     <section id="contact-us" class="pt-10 w-full flex padding-container">
       <div class="max-container w-full relative md:w-8/12 lg:w-7/12">
-        <h1 class="title text-center mb-10">Contact us</h1>
+        <h1 class="HeadTitle title text-center mb-10">Contact us</h1>
         <div class="flex justify-center space-x-4 mb-10">
           <!-- Social Media Contact Buttons -->
-          <a href="https://www.facebook.com" target="_blank"
-            class="social-button bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-full flex items-center space-x-2">
-            <i class="fab fa-facebook-f"></i>
-            <span>Facebook</span>
+          <a href="mailton:" target="_blank"
+            class="social-button bg-black hover:bg-blue-700 text-white py-3 px-6 rounded-full flex items-center space-x-2">
+            <i class="fa fa-envelope"></i>
+            <span>Email</span>
           </a>
-          <a href="https://www.instagram.com" target="_blank"
-            class="social-button bg-pink-600 hover:bg-pink-700 text-white py-3 px-6 rounded-full flex items-center space-x-2">
-            <i class="fab fa-instagram"></i>
-            <span>Instagram</span>
-          </a>
-          <a href="https://twitter.com" target="_blank"
-            class="social-button bg-blue-400 hover:bg-blue-500 text-white py-3 px-6 rounded-full flex items-center space-x-2">
-            <i class="fab fa-twitter"></i>
-            <span>Twitter</span>
+          <a href="https://www.snapchat.com" target="_blank"
+            class="social-button bg-[#FFFC00] hover:bg-[#FFCC00] text-black py-3 px-6 rounded-full flex items-center space-x-2">
+            <i class="fab fa-snapchat"></i>
+            <span>Snapchat</span>
           </a>
           <!-- WhatsApp Button -->
-          <a href="https://wa.me/yourphone" target="_blank"
+          <a href="whatsapp://send?phone=+966551784814" target="_blank"
             class="social-button bg-green-500 hover:bg-green-600 text-white py-3 px-6 rounded-full flex items-center space-x-2">
             <i class="fab fa-whatsapp"></i>
             <span>WhatsApp</span>
           </a>
-          <!-- Telegram Button -->
-          <a href="https://t.me/yourtelegram" target="_blank"
-            class="social-button bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-full flex items-center space-x-2">
-            <i class="fab fa-telegram-plane"></i>
-            <span>Telegram</span>
-          </a>
+
         </div>
 
         <div class="flex justify-center mt-10">
@@ -485,18 +467,34 @@
         srcSet="/media/images/beans.png" src="/media/images/beans.png" />
     </section>
   </main>
-  <footer class="bg-black pt-8 dark:border-t-2 dark:border-[#F5F5F5]">
+  <footer class="e-footer pt-8 dark:border-t-2 dark:border-[#F5F5F5]">
     <section class="flex flex-col items-center padding-container pb-6">
       <img alt="logo" loading="lazy" width="100" height="100" decoding="async" data-nimg="1" class="invert"
         style="color:transparent" src="/media/images/logo.png" />
-      <div class="flex gap-5 pb-7">
-        <a href="whatsapp://send?phone=+966551784814">
-          <img alt="whatsapp" loading="lazy" width="25" height="25" decoding="async" data-nimg="1"
-            style="color:transparent" src="/media/images/whatsapp.svg" />
+      <div class="social-buttons flex gap-5 pb-7 text-xl">
+        <!-- WhatsApp -->
+        <a href="whatsapp://send?phone=+966551784814" class="text-green-500 hover:text-green-700">
+          <i class="fab fa-whatsapp"></i>
         </a>
-        <a href="#">
-          <img alt="linkedin" loading="lazy" width="25" height="25" decoding="async" data-nimg="1"
-            style="color:transparent" src="/media/images/linkedin.svg" />
+
+        <!-- Twitter (X) -->
+        <a href="https://twitter.com" target="_blank" class="text-black hover:text-gray-700">
+          <i class="fab fa-twitter"></i>
+        </a>
+
+        <!-- Facebook -->
+        <a href="https://www.facebook.com" target="_blank" class="text-blue-600 hover:text-blue-800">
+          <i class="fab fa-facebook"></i>
+        </a>
+
+        <!-- Instagram -->
+        <a href="https://www.instagram.com" target="_blank" class="text-pink-500 hover:text-pink-700">
+          <i class="fab fa-instagram"></i>
+        </a>
+
+        <!-- Snapchat -->
+        <a href="https://www.snapchat.com" target="_blank" class="text-yellow-400 hover:text-yellow-500">
+          <i class="fab fa-snapchat ghost"></i>
         </a>
       </div>
       <div class="flex gap-5 pb-7">

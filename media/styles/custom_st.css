@@ -1,0 +1,52 @@
+body {
+    background-color: #94CFCB;
+
+    color: white;
+}
+
+p {
+    color: #E5f4f3
+}
+
+h1 {
+    color: white;
+}
+
+.product-item {
+    background-color: #F5f1d4;
+}
+
+.HeadTitle {
+    color: #184568;
+
+}
+
+.li-a {
+    color: #184568;
+    text-decoration: none;
+}
+
+.heavy-hr {
+    background-color: #94CFCB;
+    color: #F5f1d4;
+}
+
+.e-footer {
+    background-color: #184568;
+    color: #F5f1d4;
+
+}
+
+.overview-bar {
+    background-color: #184568;
+    color: #F5f1d4;
+
+}
+
+.social-buttons {
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+}
