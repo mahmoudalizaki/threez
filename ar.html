@@ -28,6 +28,8 @@
     <link rel="stylesheet" href="/media/styles/assests.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Cairo' rel='stylesheet'>
+    <link rel="stylesheet" href="/media/styles/custom_st.css">
+
 
 </head>
 
@@ -61,14 +63,14 @@
     <header class="max-container flexBetween padding-container relative z-30 py-5">
         <ul class="flex items-center gap-10 max-sm:gap-2">
             <li>
-                <a class="btn-ghost max-sm:text-[14px] text-center" href="/">English</a>
+                <a class="li-a btn-ghost max-sm:text-[14px] text-center" href="/">English</a>
             </li>
             <li>
                 <a href="whatsapp://send?phone=+966551784814"><button type="button"
-                        class="btn-ghost max-sm:text-[14px]">اتصل بنا</button></a>
+                        class="li-a btn-ghost max-sm:text-[14px]">اتصل بنا</button></a>
             </li>
             <li>
-                <a href="#plist"><button type="button" class="btn-ghost max-sm:text-[14px]">منتجاتنا</button></a>
+                <a href="#plist"><button type="button" class="li-a btn-ghost max-sm:text-[14px]">منتجاتنا</button></a>
             </li>
         </ul>
         <a href="#">
@@ -134,7 +136,7 @@
             </div>
         </section>
         <section
-            class="flex flex-wrap w-screen my-16 bg-black justify-around items-center lg:px-[200px] xl:px-[300px] dark:border-y-2 dark:border-[#F5F5F5]">
+            class="overview-bar flex flex-wrap w-screen my-16 justify-around items-center lg:px-[200px] xl:px-[300px] dark:border-y-2 dark:border-[#F5F5F5]">
             <div class="flex flex-col items-center px-3 py-3">
                 <p class="text-2xl text-white font-extrabold" dir="ltr">+500</p>
                 <p class="text-lg text-white">طلبات</p>
@@ -163,7 +165,7 @@
                 </div>
                 <!-- Text on the right -->
                 <div class="lg:col-span-7 text-right">
-                    <h1 class="title mb-5">من نحن؟</h1>
+                    <h1 class="HeadTitle title mb-5">من نحن؟</h1>
                     <div class="text-justify text-color text-[18px]">
                         <p>نحن متخصصون في تقديم أفضل المنتجات والخدمات للمقاهي ومحلات الشاي في المملكة العربية السعودية.
                             مهمتنا هي تمكين عملائنا لتحقيق التميز من خلال تقديم منتجات عالية الجودة مثل أكواب القهوة
@@ -181,7 +183,7 @@
             <div class="grid grid-rows-1 lg:grid-rows-none lg:grid-cols-12 pb-32 lg:pb-24">
                 <!-- Text on the left -->
                 <div class="lg:col-span-7 text-right">
-                    <h1 class="title mb-5">لماذا نحن؟</h1>
+                    <h1 class="HeadTitle title mb-5">لماذا نحن؟</h1>
                     <div class="text-justify text-color text-[18px]">
                         <p>نحن لسنا مجرد خيار عابر، بل شركاء حقيقيون في نجاحك! نفهم أن الجودة والتميز ليسا مجرد رفاهية،
                             بل هما أساس رضا عملائك واستمرارية عملك. لذلك نحرص على تقديم منتجات وخدمات تبرز علامتك
@@ -203,7 +205,8 @@
         </section>
         <section class="container mx-auto px-6 py-8" id="plist">
             <div class="relative">
-                <h1 class="max-container padding-container title text-center" style="margin-bottom: 50px;">منتجاتنا!
+                <h1 class="HeadTitle max-container padding-container title text-center" style="margin-bottom: 50px;">
+                    منتجاتنا!
                 </h1>
 
                 <!-- Slider Container -->
@@ -339,7 +342,7 @@
 
         </section>
         <section class="pt-28">
-            <h1 class="max-container padding-container title text-center">Our Brands!</h1>
+            <h1 class="HeadTitle max-container padding-container title text-center">Our Brands!</h1>
             <div
                 class="max-container padding-container pb-10 pt-7 mt-5 flex flex-wrap gap-x-10 lg:gap-x-20 gap-y-10 dark:bg-[#55555555] rounded-lg">
                 <img alt="Logo" loading="lazy" width="340" height="200" decoding="async" data-nimg="1"
@@ -377,54 +380,32 @@
         </section>
         <section>
             <div class="max-container padding-container pt-32">
-                <h1 class="title text-center">We are honored by your trust</h1>
+                <h1 class="HeadTitle title text-center">We are honored by your trust</h1>
             </div>
-            <div class="w-screen mt-10 mb-16 py-5 bg-black dark:border-y-2 dark:border-[#F5F5F5]">
-                <div class="flex flex-wrap gap-10 max-container padding-container">
-                    <!--                        
-                <img alt="red-mug" loading="lazy" width="62" height="130" decoding="async" data-nimg="1" class="object-scale-down mx-auto" style="color:transparent" srcSet="/media/images/redMug.png" src="/media/images/redMug.png"/>
-                <img alt="basic" loading="lazy" width="173" height="130" decoding="async" data-nimg="1" class="object-scale-down mx-auto" style="color:transparent" srcSet="/media/images/basic.png" src="/media/images/basic.png"/>
-                <img alt="one-fifteenth" loading="lazy" width="123" height="130" decoding="async" data-nimg="1" class="object-scale-down mx-auto" style="color:transparent" srcSet="/media/images/oneFifteenth.png" src="/media/images/oneFifteenth.png"/>
-                <img alt="cuppio" loading="lazy" width="128" height="130" decoding="async" data-nimg="1" class="object-scale-down mx-auto" style="color:transparent" srcSet="/media/images/cuppio.png" src="/media/images/cuppio.png"/>
-                <img alt="le-creperie" loading="lazy" width="112" height="130" decoding="async" data-nimg="1" class="object-scale-down mx-auto" style="color:transparent" srcSet="/media/images/leCreperie.png" src="/media/images/leCreperie.png"/>
-                <img alt="onza" loading="lazy" width="97" height="130" decoding="async" data-nimg="1" class="object-scale-down mx-auto" style="color:transparent" srcSet="/media/images/onza.png" src="/media/images/onza.png"/>
-                <img alt="princess-coffee" loading="lazy" width="128" height="130" decoding="async" data-nimg="1" class="object-scale-down mx-auto" style="color:transparent" srcSet="/media/images/princessCoffee.png" src="/media/images/princessCoffee.png"/>                    </div>
-                 -->
-                </div>
         </section>
 
         <section id="contact-us" class="pt-10 w-full flex padding-container">
             <div class="max-container w-full relative md:w-8/12 lg:w-7/12">
-                <h1 class="title text-center mb-10">Contact us</h1>
+                <h1 class="HeadTitle title text-center mb-10">تواصل معنا</h1>
                 <div class="flex justify-center space-x-4 mb-10">
                     <!-- Social Media Contact Buttons -->
-                    <a href="https://www.facebook.com" target="_blank"
-                        class="social-button bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-full flex items-center space-x-2">
-                        <i class="fab fa-facebook-f"></i>
-                        <span>Facebook</span>
+                    <a href="mailton:" target="_blank"
+                        class="social-button bg-black hover:bg-blue-700 text-white py-3 px-6 rounded-full flex items-center space-x-2">
+                        <i class="fa fa-envelope"></i>
+                        <span>Email</span>
                     </a>
-                    <a href="https://www.instagram.com" target="_blank"
-                        class="social-button bg-pink-600 hover:bg-pink-700 text-white py-3 px-6 rounded-full flex items-center space-x-2">
-                        <i class="fab fa-instagram"></i>
-                        <span>Instagram</span>
-                    </a>
-                    <a href="https://twitter.com" target="_blank"
-                        class="social-button bg-blue-400 hover:bg-blue-500 text-white py-3 px-6 rounded-full flex items-center space-x-2">
-                        <i class="fab fa-twitter"></i>
-                        <span>Twitter</span>
+                    <a href="https://www.snapchat.com" target="_blank"
+                        class="social-button bg-[#FFFC00] hover:bg-[#FFCC00] text-black py-3 px-6 rounded-full flex items-center space-x-2">
+                        <i class="fab fa-snapchat"></i>
+                        <span>Snapchat</span>
                     </a>
                     <!-- WhatsApp Button -->
-                    <a href="https://wa.me/yourphone" target="_blank"
+                    <a href="whatsapp://send?phone=+966551784814" target="_blank"
                         class="social-button bg-green-500 hover:bg-green-600 text-white py-3 px-6 rounded-full flex items-center space-x-2">
                         <i class="fab fa-whatsapp"></i>
                         <span>WhatsApp</span>
                     </a>
-                    <!-- Telegram Button -->
-                    <a href="https://t.me/yourtelegram" target="_blank"
-                        class="social-button bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-full flex items-center space-x-2">
-                        <i class="fab fa-telegram-plane"></i>
-                        <span>Telegram</span>
-                    </a>
+
                 </div>
 
                 <div class="flex justify-center mt-10">
@@ -443,19 +424,34 @@
                 srcSet="/media/images/beans.png" src="/media/images/beans.png" />
         </section>
     </main>
-
-    <footer class="bg-black pt-8 dark:border-t-2 dark:border-[#F5F5F5]">
+    <footer class="e-footer pt-8 dark:border-t-2 dark:border-[#F5F5F5]">
         <section class="flex flex-col items-center padding-container pb-6">
             <img alt="logo" loading="lazy" width="100" height="100" decoding="async" data-nimg="1" class="invert"
                 style="color:transparent" src="/media/images/logo.png" />
-            <div class="flex gap-5 pb-7">
-                <a href="whatsapp://send?phone=+966551784814">
-                    <img alt="whatsapp" loading="lazy" width="25" height="25" decoding="async" data-nimg="1"
-                        style="color:transparent" src="/media/images/whatsapp.svg" />
+            <div class="social-buttons flex gap-5 pb-7 text-xl">
+                <!-- WhatsApp -->
+                <a href="whatsapp://send?phone=+966551784814" class="text-green-500 hover:text-green-700">
+                    <i class="fab fa-whatsapp"></i>
                 </a>
-                <a href="#">
-                    <img alt="linkedin" loading="lazy" width="25" height="25" decoding="async" data-nimg="1"
-                        style="color:transparent" src="/media/images/linkedin.svg" />
+
+                <!-- Twitter (X) -->
+                <a href="https://twitter.com" target="_blank" class="text-black hover:text-gray-700">
+                    <i class="fab fa-twitter"></i>
+                </a>
+
+                <!-- Facebook -->
+                <a href="https://www.facebook.com" target="_blank" class="text-blue-600 hover:text-blue-800">
+                    <i class="fab fa-facebook"></i>
+                </a>
+
+                <!-- Instagram -->
+                <a href="https://www.instagram.com" target="_blank" class="text-pink-500 hover:text-pink-700">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <!-- Snapchat -->
+                <a href="https://www.snapchat.com" target="_blank" class="text-yellow-400 hover:text-yellow-500">
+                    <i class="fab fa-snapchat ghost"></i>
                 </a>
             </div>
             <div class="flex gap-5 pb-7">
@@ -479,15 +475,14 @@
         <section class="flex flex-col items-center py-6 bg-[#1A1A1A] dark:bg-[#44444444]">
             <p class="text-[#A0A0A0] text-sm text-center px-3">
                 Saudi Arabia, Al-Qayrawan, Riyadh, Lady of Presidents Street | Postal Code: 13556-4306 1 | Email:
-                info@threez.co | Phone: +966551784814
+                info@threez.co
+                | Phone: +966551784814
             </p>
             <p class="text-[#A0A0A0] text-sm text-center px-3 mt-2">
-                © 2025 Three Z Information. All rights reserved.
+                © 2025 ThreeZ Information. All rights reserved.
             </p>
         </section>
     </footer>
-
-
 </body>
 
 </html>
